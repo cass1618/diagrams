@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T03:35:44.053Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="TGqXLbohG0NyzNpTSKsK" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T00:19:19.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="sz2ho9imrAbaV52fMH6l" version="14.6.3" type="github">
   <diagram id="i9_4jL-9_gRCNhA3Jf2X" name="Page-1">
-    <mxGraphModel dx="786" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,25 +14,34 @@
           <mxGeometry x="400" y="60" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="E3MqMb032dRK13CXEJ75-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="100" width="120" height="20" as="geometry" />
+          <mxGeometry x="80" y="80" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="E3MqMb032dRK13CXEJ75-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="100" width="130" height="20" as="geometry" />
+          <mxGeometry x="240" y="80" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="E3MqMb032dRK13CXEJ75-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="100" width="120" height="20" as="geometry" />
+          <mxGeometry x="400" y="80" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="E3MqMb032dRK13CXEJ75-8" value="Form fields where they will type what&#39;s above" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="120" width="290" height="20" as="geometry" />
+          <mxGeometry x="60" y="120" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="E3MqMb032dRK13CXEJ75-10" value="When they type in the fields, it should respond if they type the wrong key&lt;br&gt;Either stop and not let them continue, or change the color and let them keep going&lt;br&gt;So we&#39;d have to have a function that compares every letter to the letter in the same position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-60" width="530" height="60" as="geometry" />
+        <mxCell id="E3MqMb032dRK13CXEJ75-10" value="When they type in the fields, it should respond if they type the wrong key&lt;br&gt;Either stop and not let them continue, or change the color/sound/etc. and let them keep going&lt;br&gt;So we&#39;d have to have a function that compares every letter to the letter in the same position" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="530" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="E3MqMb032dRK13CXEJ75-14" value="There will be a counter that will keep track of how many errors they make out of total words to keep track of accuracy.&amp;nbsp; Also would be nice to track speed if possible." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="10" width="460" height="20" as="geometry" />
+        <mxCell id="E3MqMb032dRK13CXEJ75-14" value="There will be a counter that will keep track of how many errors they make out of total words to keep track of accuracy.&amp;nbsp; Also would be nice to track speed if possible." style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3MqMb032dRK13CXEJ75-17" value="Would want to add some type of theme or something to make it more fun but currently no ideas." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="180" width="450" height="20" as="geometry" />
+        <mxCell id="E3MqMb032dRK13CXEJ75-18" value="To make it fun, maybe we could think of a cute theme or something&lt;br&gt;Maybe could have a challenge where you try to finish in a certain time" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3MqMb032dRK13CXEJ75-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="560" y="50" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3MqMb032dRK13CXEJ75-20" value="Would be nice if we could figure out a cursor type display inside of the fields" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="70" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="E3MqMb032dRK13CXEJ75-22" value="Another feature we could have is that it would accept a text file and convert it into the the things you type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="380" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
